@@ -1,13 +1,13 @@
 from turtle import Turtle, Screen
 import random
 
-colors = ['red', 'green', 'blue', 'dark orange', 'maroon', 'purple', 'chocolate']
-turtles = ['t1', 't2', 't3', 't4', 't5', 't6', 't7']
+colors = ["red", "green", "blue", "dark orange", "maroon", "purple", "chocolate"]
+turtles = ["t1", "t2", "t3", "t4", "t5", "t6", "t7"]
 
-screen  = Screen()
-screen.setup(width=500, height=500)
+screen = Screen()
+screen.setup(width= 500, height= 500)
 
-user_bet = screen.textinput(title= "Make your bet", prompt= "Which turtle will win the race? Enter a color: ")
+user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color: ")
 
 y = -150
 for _ in range(7):
